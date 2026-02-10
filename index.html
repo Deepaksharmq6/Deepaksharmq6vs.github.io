@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VS Code Navbar Replica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="https://code.visualstudio.com/favicon.ico" alt="VS Code" class="logo">
+    <span class="brand">Visual Studio Code</span>
+
+    <nav class="nav-links">
+      <a href="#">Docs</a>
+      <a href="#">Updates</a>
+      <a href="#">Blog</a>
+      <a href="#">API</a>
+      <a href="#">Extensions</a>
+      <a href="#">MCP</a>
+      <a href="#">FAQ</a>
+    </nav>
+  </div>
+
+  <div class="nav-right">
+    <button class="icon-btn">☀️</button>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search Docs">
+      <span class="shortcut">Ctrl+Shift+P</span>
+    </div>
+
+    <button class="download-btn">Download</button>
+  </div>
+</header>
+ <section class="download-section">
+    <h1>Download Visual Studio Code</h1>
+    <p class="subtitle">Free and built on open source. Integrated Git, debugging and extensions.</p>
+    <div class="cards">
+      <!-- Windows -->
+      <div class="card">
+        <div class="card-icon">
+            <img class="os-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg" alt="Windows">
+        </div>
+        <a href="#" class="download-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          Windows
+        </a>
+        <span class="card-subtitle">Windows 10, 11</span>
+        <div class="arch-rows">
+          <div class="arch-row"><span>User Installer</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm64</a></div></div>
+          <div class="arch-row"><span>System Installer</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm64</a></div></div>
+          <div class="arch-row"><span>.zip</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm64</a></div></div>
+          <div class="arch-row"><span>CLI</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm64</a></div></div>
+        </div>
+      </div>
+      <!-- Linux -->
+      <div class="card">
+        <div class="card-icon">
+          
+    <img class="os-icon" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux">
+        </div>
+        <a href="#" class="download-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          .deb
+        </a>
+        <span class="card-subtitle">Debian, Ubuntu</span>
+        <div class="arch-rows">
+          <div class="arch-row"><span>.deb</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm32</a><a href="#" class="badge">Arm64</a></div></div>
+          <div class="arch-row"><span>.rpm</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm32</a><a href="#" class="badge">Arm64</a></div></div>
+          <div class="arch-row"><span>.tar.gz</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm32</a><a href="#" class="badge">Arm64</a></div></div>
+          <div class="arch-row"><span>Snap</span><div class="badges"><a href="#" class="badge">Snap Store</a></div></div>
+          <div class="arch-row"><span>CLI</span><div class="badges"><a href="#" class="badge">x64</a><a href="#" class="badge">Arm32</a><a href="#" class="badge">Arm64</a></div></div>
+        </div>
+      </div>
+      <!-- Mac -->
+      <div class="card">
+        <div class="card-icon">
+           <img class="os-icon1" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Mac">
+        </div>
+        <a href="#" class="download-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          Mac
+        </a>
+        <span class="card-subtitle">macOS 11.0+</span>
+        <div class="arch-rows">
+          <div class="arch-row"><span>.dmg</span><div class="badges"><a href="#" class="badge">Intel chip</a><a href="#" class="badge">Apple silicon</a><a href="#" class="badge">Universal</a></div></div>
+          <div class="arch-row"><span>CLI</span><div class="badges"><a href="#" class="badge">Intel chip</a><a href="#" class="badge">Apple silicon</a></div></div>
+        </div>
+      </div>
+    </div>
+    <p class="license-text">
+      By downloading and using CodeForge Editor, you agree to the
+      <a href="#">license terms</a> and <a href="#">privacy statement</a>.
+    </p>
+  </section>
+<!-- Footer -->
+  <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h2>Want new features sooner?</h2>
+        <p>Get the <a href="#">Insiders build</a> instead.</p>
+      </div>
+      <div class="footer-col">
+        <h2>Use <a href="#">vscode.dev</a> for quick edits online!</h2>
+        <p>GitHub, Azure Repos, and local files.</p>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#">Get previous versions</a>
+      <a href="#">See SHA-256 Hashes</a>
+    </div>
+  </footer>
+  
+
+  <section class="social-bar">
+    <div class="left-group">
+
+      <!-- ICON ROW -->
+      <div class="icons">
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X"></a>
+        <div class="linkedin-icon"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+      </div>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/bluesky.svg" alt="Bluesky"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/reddit.svg" alt="Reddit"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/mastodon.svg" alt="Mastodon"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube"></a>
+      </div>
+
+      <!-- LINK ROW -->
+      <div class="links">
+        <a href="#">Support</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">License</a>
+      </div>
+
+    </div>
+
+    <!-- Windows Logo Right -->
+    <div class="windows">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/windows.svg" alt="Windows">
+    </div>
+  </section>
+
+
+
+</body>
+</html>
